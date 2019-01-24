@@ -12,6 +12,7 @@ oauth2client = "*"
 slackclient = "*"
 flask-api = "*"
 python-dotenv = "*"
+gunicorn = "*"
 
 [requires]
 python_version = "3.6"
