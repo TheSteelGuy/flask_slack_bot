@@ -106,5 +106,5 @@ class Actions:
                     row['Most Recent Learning Experience you\'d like to write about'])
                     self.slackhelper.post_message_to_channel(text_detail)
             print('message sent or no tasks for today-waiting till 8:00a.m next day')
-            time.sleep(3)
+            time.sleep(sleep_time * 3600)
 
