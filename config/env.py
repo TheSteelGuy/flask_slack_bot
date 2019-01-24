@@ -10,8 +10,13 @@ class DevelopmentEnv(EnvConfig):
     """Configurations for Development."""
     DEBUG = True
 
+class ProductionEnv(EnvConfig):
+    """Configurations for Development."""
+    DEBUG = True
+
 app_env = {
-    'development': DevelopmentEnv
+    'development': DevelopmentEnv,
+    'production': ProductionEnv
 }
 
 
